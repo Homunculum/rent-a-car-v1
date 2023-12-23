@@ -1,4 +1,4 @@
-package com.example.rentacarv1.entities;
+package com.example.rentacarv1.Entities;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

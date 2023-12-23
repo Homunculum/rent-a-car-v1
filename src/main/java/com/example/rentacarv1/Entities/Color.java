@@ -1,6 +1,4 @@
-package com.example.rentacarv1.entities;
-
-
+package com.example.rentacarv1.Entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,23 +8,23 @@ import lombok.Setter;
 
 import java.util.List;
 
-//test
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "brands")
-public class Brand {
+@Table(name = "colors")
+public class Color {
     @Id
-    @Column(name="id")
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name = "name", nullable = false)
     private String name;
 
-    @OneToMany(mappedBy = "brand")
+    @OneToMany(mappedBy = "color")
     @JsonIgnore
-    private List<Model> models;
+    private List<Car> cars;
+
 }
