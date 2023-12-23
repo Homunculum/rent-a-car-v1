@@ -1,6 +1,6 @@
 package com.example.rentacarv1.services.concretes;
 
-import com.example.rentacarv1.entities.Brand;
+import com.example.rentacarv1.Entities.Brand;
 import com.example.rentacarv1.core.utilities.mappers.ModelMapperService;
 import com.example.rentacarv1.repositories.BrandRepository;
 import com.example.rentacarv1.services.abstracts.BrandService;

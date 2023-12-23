@@ -1,6 +1,6 @@
 package com.example.rentacarv1.services.concretes;
 
-import com.example.rentacarv1.entities.Car;
+import com.example.rentacarv1.Entities.Car;
 import com.example.rentacarv1.core.utilities.mappers.ModelMapperService;
 import com.example.rentacarv1.repositories.CarRepository;
 import com.example.rentacarv1.services.abstracts.CarService;

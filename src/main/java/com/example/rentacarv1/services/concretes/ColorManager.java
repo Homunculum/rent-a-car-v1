@@ -1,6 +1,6 @@
 package com.example.rentacarv1.services.concretes;
 
-import com.example.rentacarv1.entities.Color;
+import com.example.rentacarv1.Entities.Color;
 import com.example.rentacarv1.core.utilities.mappers.ModelMapperService;
 import com.example.rentacarv1.repositories.ColorRepository;
 import com.example.rentacarv1.services.abstracts.ColorService;
